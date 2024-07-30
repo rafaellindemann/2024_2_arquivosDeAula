@@ -3,7 +3,6 @@ import Conteudo from './components/Conteudo'
 import Navbar from './components/Navbar'
 
 function App() {
-
   return (
     <div className='app-container'>
       <Navbar />
@@ -11,5 +10,4 @@ function App() {
     </div>
   )
 }
-
-export default App
+export default App;
