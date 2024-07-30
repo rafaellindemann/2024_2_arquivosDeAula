@@ -1,4 +1,5 @@
 import './App.css'
+// importação dos componentes
 import Conteudo from './components/Conteudo'
 import Navbar from './components/Navbar'
 
