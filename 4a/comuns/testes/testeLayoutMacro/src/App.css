@@ -24,4 +24,5 @@ html, body, #root {
   padding: 20px;
   overflow-y: auto;
   background-color: #f9f9f9;
+  background-image: url('layered-peaks-haikei.svg');
 }
