@@ -1,0 +1,8 @@
+.conteudo-container{
+    background-color: var(--cor-3);
+    color: var(--cor-1);
+    height: calc(100vh - 60px);
+    /* min-height: calc(100vh - 60px); */
+    /* height: 100vh; */
+    /* opções de altura para mostrar as diferenças */
+}
