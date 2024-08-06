@@ -1,0 +1,8 @@
+Grupo: BG Finanças
+
+Tema: Gerenciador de finanças pessoais
+
+Alunos: Bruno, Gabriel Caetano, Ryan e Victor
+
+Sobre: Basicamente o modelo inicial vai calcular suas rendas mensais, despesas mensais e saldo, e ira gerar relatorios tanto das receitas mensais
+e despesas mensais

@@ -1,13 +1,11 @@
 import './App.css'
 // importação dos componentes
-import Conteudo from './components/Conteudo'
-import Navbar from './components/Navbar'
+import Home from './pages/Home';
 
 function App() {
   return (
     <div className='app-container'>
-      <Navbar />
-      <Conteudo />
+      <Home />
     </div>
   )
 }
