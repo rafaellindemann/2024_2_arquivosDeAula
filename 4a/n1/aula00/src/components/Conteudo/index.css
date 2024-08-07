@@ -1,4 +1,10 @@
 .conteudo-container{
     /* background-color: #dddd00; */
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flor-rosa{
+    width: 200px;
 }
