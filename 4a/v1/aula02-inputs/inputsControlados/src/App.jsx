@@ -13,20 +13,19 @@ function App() {
     setInputIdade(event.target.value)
   }
   function cadastrarUsuario(){
-    // console.log(inputNome);
-    // console.log(inputIdade);
     let usuario = {
+      id: Date.now(),
       nome: inputNome,
       idade: inputIdade
     }
     console.log(usuario);
-    setUsuarios([...usuarios,usuario]) // ***
+    setUsuarios([...usuarios,usuario])
+
+    setInputNome('')
+    setInputIdade('')
   }
 
   // {nome:"Um",idade:1},{nome:"dois",idade:44}
-
-
-
   // [{nome:"Um",idade:1},{nome:"dois",idade:44},{}]
 
   return (
@@ -58,10 +57,11 @@ function App() {
         <p>
           Idade: {inputIdade}
         </p>
-        <div>
-          Usuarios: {
-            usuarios.map((usuario, index) => (
-              <div key={index}>
+        <h2>Usuários</h2>
+        <div className='usuarios'>
+          {
+            usuarios.map((usuario) => (
+              <div key={usuario.id} className='usuario-container'>
                 <p>{usuario.nome}</p>
                 <p>{usuario.idade}</p>
               </div>

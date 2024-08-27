@@ -5,6 +5,23 @@
   text-align: center;
 }
 
+.usuarios{
+  display: flex;
+  gap: 10px;
+  border: 1px dotted #550000;
+  padding: 10px;
+
+}
+.usuario-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #330000;
+  border-radius: 10px;
+  padding: 10px;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
