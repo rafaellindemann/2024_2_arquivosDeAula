@@ -16,7 +16,7 @@ function App() {
   }
   return (
     <>
-      <h1>titulo</h1>
+      <h1 className='titulo'>titulo</h1>
       <button onClick={tratarClique}>Clique</button>
       <div>
         {cont}
