@@ -195,6 +195,8 @@ function App() {
           {inputDescricao}
         </div>
 
+        {/* <h1>falta ler descrição e criar os outros inputs</h1> */}
+
         <button onClick={ cadastrarProduto }>Cadastrar</button>
 
       </div>
