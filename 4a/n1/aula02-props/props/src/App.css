@@ -4,9 +4,11 @@
   padding: 2rem;
   text-align: center;
 }
-
-.titulo{
-  color: var(--cor-1);
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
 
 .logo {
