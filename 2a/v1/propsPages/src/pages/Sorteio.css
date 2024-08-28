@@ -1,0 +1,23 @@
+.sorteio-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100px;
+}
+
+.btn-sortear{
+    background-color: #000;
+    color: #fff;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.btn-sortear:hover{
+    
+    /* box-shadow: 0 0 15px rgba(255,0,0,0.5); */
+    box-shadow: inset 0 0 10px 3px #DF4E39;
+    /* border: 1px solid red; */
+    scale: 1.08;
+}
