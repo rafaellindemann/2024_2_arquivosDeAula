@@ -1,8 +1,29 @@
 import './App.css'
 import Produto from './components/Produto'
 import Titulo from './components/Titulo'
+import { useState } from 'react'; 
 function App() {
-  const produtos = [
+  const [inputNome, setInputNome] = useState('');
+  const [inputDescricao, setInputDescricao] = useState('')
+  const [inputPreco, setInputPreco] = useState('')
+  const [inputPeso, setInputPeso] = useState('')
+  function mudouNome(event){
+    console.log(event.target.value);
+    setInputNome(event.target.value)
+  }
+  function cadastrarProduto(){
+    let produto = {
+      id: Date.now(),
+      nome: inputNome,
+      descricao: "[object Object]",
+      preco: 0,
+      peso: 0
+    }
+    setProdutos([produto, ...produtos])
+    // produtos.push(produto)
+    // console.log(produtos);
+  }
+  const [produtos, setProdutos] = useState([
     {
       id: Date.now(),
       nome: "Toalha de Praia",
@@ -143,9 +164,8 @@ function App() {
       preco: 89.90,
       peso: 0.9
     }
-  ];
+  ])
   
-
   let produto = {
     nome: "Cadeira de praia",
     descricao: "Uma cadeira pra usar no canal",
@@ -155,7 +175,35 @@ function App() {
   return (
     <>
       <Titulo texto={"Barra da Lagoa"} emoji={"😎"}/>
-      <Produto produto={produto} />
+      {/* <Produto produto={produto} /> */}
+
+      <div className="formCadastro">
+        <h2>Cadastro de produto</h2>
+        <div className="input-container">
+          <label>Nome</label>
+          <input type="text" placeholder='Cadeira de tainha'
+            value={inputNome}
+            onChange={ mudouNome }
+          />
+        </div>
+        <div className="input-container">
+          <label>Descrição</label>
+          <input type="text" 
+            value={inputDescricao}
+            onChange={ (event) => setInputDescricao(event.target.value) }
+          />
+          {inputDescricao}
+        </div>
+
+        <button onClick={ cadastrarProduto }>Cadastrar</button>
+
+      </div>
+
+      <div className='cards'>
+        {produtos.map( (p) => (
+          <Produto produto={p} key={p.id} />
+        ) )}
+      </div>
     </>
   )
 }

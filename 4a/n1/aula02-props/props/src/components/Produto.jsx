@@ -10,6 +10,7 @@ function Produto(props) {
       <p>{p.descricao}</p>
       <p>Peso: {p.peso}kg</p>
       <p>R${p.preco.toFixed(2)}</p>
+      <p>id:{p.id}</p>
     </div>
   )
 }

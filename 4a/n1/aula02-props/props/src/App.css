@@ -4,6 +4,12 @@
   padding: 2rem;
   text-align: center;
 }
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
 
 .logo {
   height: 6em;
