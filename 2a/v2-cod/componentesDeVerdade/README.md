@@ -27,9 +27,9 @@ Aqui estão algumas das ferramentas e tecnologias com as quais eu trabalho:
 
 ## 📊 Estatísticas do GitHub
 
-![Estatísticas do GitHub](https://github-readme-stats.vercel.app/api?username=seu-usuario&show_icons=true&count_private=true&hide_title=true&hide=prs&theme=radical)
+![Estatísticas do GitHub](https://github-readme-stats.vercel.app/api?username=rafaellindemann&show_icons=true&count_private=true&hide_title=true&hide=prs&theme=radical)
 
-![Linguagens mais usadas](https://github-readme-stats.vercel.app/api/top-langs/?username=seu-usuario&layout=compact&theme=radical)
+![Linguagens mais usadas](https://github-readme-stats.vercel.app/api/top-langs/?username=rafaellindemann&layout=compact&theme=radical)
 
 ## 📝 Projetos Destacados
 
@@ -41,7 +41,7 @@ Aqui estão alguns dos projetos que tenho orgulho de compartilhar:
 
 ## 🔥 Contribuições Recentes
 
-![Contribuições Recentes](https://github-readme-streak-stats.herokuapp.com/?user=seu-usuario&theme=radical)
+![Contribuições Recentes](https://github-readme-streak-stats.herokuapp.com/?user=rafaellindemann&theme=radical)
 
 ## 📢 Últimos Posts
 
