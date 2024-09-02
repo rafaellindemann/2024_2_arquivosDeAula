@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 100px;
+    gap: 10px;
 }
 
 .btn-sortear{
@@ -20,4 +20,10 @@
     box-shadow: inset 0 0 10px 3px #DF4E39;
     /* border: 1px solid red; */
     scale: 1.08;
+}
+.numero{
+    font-size: 50px;
+    width: 100px;
+    border: 2px solid #000;
+    border-radius: 10px;
 }
