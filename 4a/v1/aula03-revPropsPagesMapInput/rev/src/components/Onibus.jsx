@@ -1,9 +1,9 @@
-
+import './Onibus.css'
 // { id: , modelo: "", placa: "", ano:  },
 function Onibus(props) {
     let onibus = props.onibus
   return (
-    <div>
+    <div className="onibus-container">
       {/* <h2>Modelo: {props.onibus.modelo}</h2> */}
       <h2>Modelo: {onibus.modelo}</h2>
       <p>Placa: {onibus.placa}</p>

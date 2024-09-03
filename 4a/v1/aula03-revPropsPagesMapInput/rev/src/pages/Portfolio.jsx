@@ -1,6 +1,6 @@
 import Onibus from "../components/Onibus";
 import Titulo from "../components/Titulo"
-
+import './Portfolio.css'
 function Portfolio() {
     const buzoes = [
         { id: Date.now() + 0, modelo: "Mercedes-Benz OF-1721", placa: "ABC-1234", ano: 2015 },
@@ -29,10 +29,11 @@ function Portfolio() {
     <div>
       <Titulo texto={"Portfólio"} emoji={"💲"}/>
       <p>Estamos na página de portfólio</p>
-    
-    {buzoes.map( (onibus) => (
-        <Onibus onibus={onibus} key={onibus.id} />
-    ) )}
+    <div className="buzoes">
+        {buzoes.map( (onibus) => (
+            <Onibus onibus={onibus} key={onibus.id} />
+        ) )}
+    </div>
 
     </div>
   )
