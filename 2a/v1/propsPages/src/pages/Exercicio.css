@@ -1,6 +1,8 @@
 .alto{
     background-image: url('./images/alto.png');
+    min-height: 600px;
 }
 .baixo{
+    min-height: 600px;
     background-image: url('./images/baixo.png');
 }
