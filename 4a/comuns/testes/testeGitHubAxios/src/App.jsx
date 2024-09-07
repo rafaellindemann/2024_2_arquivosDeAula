@@ -34,6 +34,7 @@ function App() {
     <div className="app">
       <h1>GitHub User Finder</h1>
       <form onSubmit={handleSubmit}>
+        <img src="./line-md--github-loop.svg" alt="" />
         <input
           type="text"
           value={username}
