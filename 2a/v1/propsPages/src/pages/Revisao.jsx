@@ -27,7 +27,7 @@ function Revisao() {
     <div>
         <p>Valor do estado: {estado}</p>
         <p>Valor da variável: {variavel}</p>
-      <button onClick={mudarCoisasGenericas}>Alterar</button>
+      <button onClick={mudarCoisasGenericas}>Alterar: {estado}</button>
     </div>
   )
 }

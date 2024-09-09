@@ -1,4 +1,5 @@
 import './App.css'
+import ArCondicionado from './pages/ArCondicionado'
 import Cadastro from './pages/Cadastro'
 import Dado from './pages/Dado'
 import Exercicios from './pages/Exercicios'
@@ -14,7 +15,8 @@ function App() {
       {/* <Sorteio /> */}
       {/* <Dado /> */}
       {/* <Exercicios /> */}
-      <Revisao />
+      {/* <Revisao /> */}
+      <ArCondicionado />
 
     </div>
   )
