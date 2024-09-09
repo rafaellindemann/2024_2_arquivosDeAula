@@ -3,6 +3,7 @@ import Cadastro from './pages/Cadastro'
 import Dado from './pages/Dado'
 import Exercicios from './pages/Exercicios'
 import Home from './pages/Home'
+import Revisao from './pages/Revisao'
 import Sorteio from './pages/Sorteio'
 function App() {
 
@@ -12,7 +13,9 @@ function App() {
       {/* <Cadastro /> */}
       {/* <Sorteio /> */}
       {/* <Dado /> */}
-      <Exercicios />
+      {/* <Exercicios /> */}
+      <Revisao />
+
     </div>
   )
 }
