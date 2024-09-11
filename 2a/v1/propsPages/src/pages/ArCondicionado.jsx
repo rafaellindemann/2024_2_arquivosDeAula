@@ -18,8 +18,10 @@ function ArCondicionado() {
       <label htmlFor="">Digite a temperatura em graus Celsius: </label>
       <input type="text" className='entrada'
         value={inputCelsius}
-        onChange={mudouCelsius}
+        // onChange={mudouCelsius}
+        onChange={(event) => setInputCelsius(event.target.value)}
       />
+
       {/* <p>{inputCelsius * 1.8 + 32}</p> */}
       {/* <p>{inputCelsius}</p> */}
       <p>{fahrenheit}</p>

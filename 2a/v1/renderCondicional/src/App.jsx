@@ -22,7 +22,7 @@ function App() {
         <button onClick={() => setIdade(idade - 1)}>-</button>
         {idade}
         <button onClick={() => setIdade(idade + 1)}>+</button>
-        { idade>=18 && <AreaParaAdultos /> }
+        { (idade>=5 && idade<=10) && <AreaParaAdultos /> }
       </div>
       <div className="render-container">
         { logado==true ? <OlaUsuario /> : <Login /> }
