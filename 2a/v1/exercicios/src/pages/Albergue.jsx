@@ -53,3 +53,13 @@ function Albergue() {
 }
 
 export default Albergue
+
+
+// frutas = ["laranja", "pera", "uva"]
+
+
+// frutas = [frutas, "frutaNova"]
+// frutas = [["laranja", "pera", "uva"], "frutaNova"]
+
+// frutas = [...frutas, "frutaNova"]
+// frutas = ["laranja", "pera", "uva", "frutaNova"]
