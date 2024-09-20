@@ -1,0 +1,5 @@
+h1{
+    /* background-color: red; */
+    background-color: var(--background);
+    color: var(--texto);
+}
