@@ -9,6 +9,7 @@ const router = createBrowserRouter([
     {path: "/musicas", element: <Musicas />},
     {path: "/filmes", element: <Filmes />},
     {path: "/seriados", element: <Seriados />},
+    
 ])
 
 export default router;
