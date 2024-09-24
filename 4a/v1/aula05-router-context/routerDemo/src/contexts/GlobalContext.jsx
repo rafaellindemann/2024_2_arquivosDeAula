@@ -1,7 +1,5 @@
 import { createContext, useState } from "react";
-
 export const GlobalContext = createContext()
-
 export const GlobalContextProvider = ({children}) => {
     // informações globais
     let usuarioLogado = 'Gill Bates'
@@ -30,3 +28,10 @@ export const GlobalContextProvider = ({children}) => {
         </GlobalContext.Provider>
     )
 }
+
+{/* <Componente />
+
+<Componente> 
+    <h1>kljasddfv</h1>
+    <div></div>
+</Componente> */}
