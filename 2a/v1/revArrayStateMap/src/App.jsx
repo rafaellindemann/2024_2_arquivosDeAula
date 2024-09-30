@@ -14,9 +14,10 @@ function App() {
   function atender(){
     if(fila.length){
       alert(fila[0].numero)
-      // let filaTemp = fila
-      // filaTemp = filaTemp.splice(0, 1)
-      setFila(fila.slice(1))
+      setFila(fila.slice(1)) // REMOVE O PRIMEIRO DA FILA
+      // let filaTemp = [...fila]
+      // filaTemp.splice(0, 1)
+      // setFila(filaTemp)
     }else{
       alert("Não tem ninguém na fila, finge que tá fazendo alguma coisa e vai descansar")
     }
