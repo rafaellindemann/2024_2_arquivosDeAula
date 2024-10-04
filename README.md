@@ -5,6 +5,7 @@ Neste repositório são guardados os arquivos gerados durante as aulas do semest
 Eles estão organizados por fase e, quando aplicável, por turma.
 
 <hr>
+<hr>
 
 Se quiser aprender mais ou estiver procurando alguma ferramenta pra te ajudar na dura lida do dia a dia:
 [🧡🎁progHub.com.br🎁🧡](https://www.proghub.com.br/): App web com um compiladão de recursos úteis e confiáveis para quem está aprendendo a desenvolver ([Repositório aqui](https://github.com/rafaellindemann/rafaellindemann.github.io)).
