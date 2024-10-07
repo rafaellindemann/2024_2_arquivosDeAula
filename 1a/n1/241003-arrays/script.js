@@ -1,5 +1,6 @@
 
 let idades = [14, 22, 34, 20, 23, 55, 45]
+let arrayVazio = []
 
 function pesquisar(){
     // console.log(idades);
