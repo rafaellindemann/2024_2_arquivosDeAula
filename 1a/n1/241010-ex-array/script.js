@@ -6,7 +6,8 @@ function executar83(){
     let numero
 
     for(let i=0; i<25; i++){
-        numero = Math.ceil(Math.random()*6)
+        // numero = Math.ceil(Math.random()*6)
+        numero = Math.ceil(Math.random()*1000)
         numeros.push(numero)
     }    
     console.log(numeros);
@@ -50,6 +51,40 @@ function mostrarArray(){
         document.getElementById('resultado').innerHTML += "Dado: " + numeros[i] + "<BR>"
     }
 
+}
+
+function pesquisarComFor(){
+    let valor = Number(prompt("Digite o valor para pesquisar:"))
+    let indice = -1
+    for(let i=0; i<numeros.length; i++){
+        if(numeros[i] == valor){
+            indice = i
+        }
+    }
+
+    if(indice == -1){
+        alert("Não encontrado")
+    }else{
+        alert("Encontrado: " + indice)
+        alert(`Encontrado: ${indice}`)
+    }
+    
+}
+
+function pesquisar(){
+    let valor = Number(prompt("Digite o valor para pesquisar: "))
+    if(numeros.indexOf(valor) == -1){
+        alert("Nana")
+    }else{
+        alert(`Achei: ${numeros.indexOf(valor)}` )
+    }
+}
+function pesquisarFeia1(){ // não faça isso, não seja essa pessoa
+    if(numeros.indexOf(Number(prompt("Digite o valor para pesquisar: "))) == -1){
+        alert("Nana")
+    }else{
+        alert(`Achei: ${numeros.indexOf(valor)}` )
+    }
 }
 
 // numero = Math.random() // 0.00000000000 a 0.999999999999

@@ -1,0 +1,12 @@
+.produto-container{
+    border: 1px solid #ff00ff;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.produtos{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
