@@ -5,9 +5,12 @@ import "slick-carousel/slick/slick-theme.css";
 
 function App(){
   const images = [
-    "https://via.placeholder.com/300x200.png?text=Imagem+1",
-    "https://via.placeholder.com/300x200.png?text=Imagem+2",
-    "https://via.placeholder.com/300x200.png?text=Imagem+3",
+    // "https://via.placeholder.com/300x200.png?text=Imagem+1",
+    // "https://via.placeholder.com/300x200.png?text=Imagem+2",
+    // "https://via.placeholder.com/300x200.png?text=Imagem+3",
+    "./img/casa.png",
+    "./img/carro.png",
+    "./img/carroDeSom.png",
   ];
 
   const settings = {
