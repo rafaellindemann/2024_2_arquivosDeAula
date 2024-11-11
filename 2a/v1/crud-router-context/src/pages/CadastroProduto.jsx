@@ -6,6 +6,8 @@ import './CadastroProduto.css'
 
 function CadastroProduto() {
     const {produtos, setProdutos} = useContext(GlobalContext)
+    // let produto = props.produto
+    // const {marca, modelo} = props.produto
 
     const[inputNome, setInputNome] = useState('')
     const[inputPreco, setInputPreco] = useState('')
@@ -53,6 +55,7 @@ function CadastroProduto() {
                 </div>
             ))}
         </div>
+        <ListaProdutos lista={produtos}/>
     </div>
   )
 }
