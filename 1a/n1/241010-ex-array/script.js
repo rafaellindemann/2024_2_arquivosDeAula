@@ -49,6 +49,7 @@ function mostrarArray(){
     document.getElementById('resultado').innerHTML = '<h2>Lançamentos do dado:</h2>'
     for(let i=0; i<numeros.length; i++){
         document.getElementById('resultado').innerHTML += "Dado: " + numeros[i] + "<BR>"
+        // document.getElementById('resultado').innerHTML += "<div>Dado: " + numeros[i]  + "</div>"
     }
 
 }

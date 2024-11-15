@@ -1,0 +1,10 @@
+button{
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: aquamarine;
+    scale: 1.1;
+    transition-duration: 0.5s;
+}
